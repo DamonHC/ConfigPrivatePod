@@ -9,5 +9,6 @@ Enter Author Name: xxx
 Enter Author Email: xxx
 
 3. confirm? (y/n):y
-
+4. Use tag.sh to add a tag
+ 
 Note:This repo refers to casatwy,just add Author Name and Author Email.
