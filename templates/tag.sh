@@ -42,6 +42,10 @@ echo "edit finished"
 echo "adding tag..."
 git add .
 git commit -m "${tag}"
+# 删除标签，如果已存在
+git tag -d ${tag}
+git push origin :refs/tags/${tag}
+# 添加标签
 git tag ${tag}
 git push origin master --tags
 echo "finished adding tag"
